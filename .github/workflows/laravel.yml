@@ -32,4 +32,12 @@ jobs:
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
-        
+    #  run: vendor/bin/phpunit
+      
+    #- name: Set up Node.js
+    #  uses: actions/setup-node@v2
+    #  with:
+    #      node-version: '16'
+
+    #- name: Install Node.js dependencies
+    #  run: npm install

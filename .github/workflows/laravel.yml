@@ -32,9 +32,8 @@ jobs:
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
-    - uses: php-actions/composer@v6
-    - run: echo "Composer dependencies have been installed"
     - run: vendor/bin/phpunit      
+    
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:

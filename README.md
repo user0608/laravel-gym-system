@@ -117,7 +117,7 @@ You can pledge on [patreon](https://www.patreon.com/lubus) to support the develo
 `Gymie` is open-sourced software licensed under the [MIT](LICENSE)
 
 ```bash
-sudo apt install php7.4 php7.4-common php7.4-pdo php7.4-mbstring php7.4-tokenizer php7.4-xml php7.4-ctype php7.4-json php7.4-gd php7.4-imagick  php7.4-curl
+sudo apt install php7.4 php7.4-common php7.4-mysql php7.4-pdo php7.4-mbstring php7.4-tokenizer php7.4-xml php7.4-ctype php7.4-json php7.4-gd php7.4-imagick  php7.4-curl 
 
 #composer: curl -sS https://getcomposer.org/installer -o composer-setup.php
 #op1: sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
